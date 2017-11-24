@@ -2,13 +2,9 @@ import React, { Component } from 'react'
 import { View, Text, Image, Button } from 'react-native'
 import renderer from 'react-test-renderer'
 
-import { query, getWrappedComponent } from '../test-helper'
+import { query, getWrappedComponent } from '../'
 
 class MockComponent extends Component {
-  test () {
-    return 1
-  }
-
   render () {
     return (
       <View>
@@ -22,6 +18,10 @@ class MockComponent extends Component {
         </View>
       </View>
     )
+  }
+
+  test () {
+    return 1
   }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "react-native-test-utility",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utility package for testing react-native applications",
   "main": "index.js",
   "scripts": {
